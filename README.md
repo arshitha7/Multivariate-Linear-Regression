@@ -9,16 +9,15 @@ To write a python program to implement multivariate linear regression and predic
 Import pandas ad pd
 
 ### Step2
-<br>
+Import Linear_model from sklearn.
 
 ### Step3
-<br>
-
+Read the csv file using pandas library.
 ### Step4
-<br>
+Enter the parameters of the linear function.
 
 ### Step5
-<br>
+Print the parameters of the linear function.
 
 ## Program:
 ```
@@ -37,16 +36,9 @@ print("Coefficients:",regr.coef_)
 print('Intercept:',regr.intercept_)
 predictCO2=regr.predict([[3300,1300]])
 print("predicted CO2 for the corresponding weight and volume", predictCO2)
-
-
-
-
-
-
 ```
 ## Output:
-
-![image](https://github.com/arshitha7/Multivariate-Linear-Regression/assets/144979143/a66083d7-20a4-43c6-a0e0-50a2ab9c1f3c)
+![output](image.png)
 
 
 ## Result
